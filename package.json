@@ -6,10 +6,12 @@
   "author": "arryanggaputra@gmail.com",
   "license": "MIT",
   "scripts": {
-    "build:css": "postcss src/tailwind.css -o public/dist/tailwind.css -w --verbose"
+    "build": "postcss src/tailwind.css -o public/dist/tailwind.css",
+    "watch:css": "postcss src/tailwind.css -o public/dist/tailwind.css -w --verbose"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.1",
     "postcss": "^8.2.9",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.1",

@@ -32,7 +32,6 @@ lib/bs
 *.bsb.lock
 /lib/
 bundleOutput/
-dist
 coverage/
 !__tests__/**/*.bs.js
 
