@@ -7,6 +7,14 @@ module.exports = {
       colors: {
         primary : '#31A431'
         
+      },
+      fontFamily: {
+        sans : [
+          "Poppins"
+        ],
+        serif : [
+          "DM Sans"
+        ]
       }
     },
   },
@@ -14,4 +22,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  important: true
 };
