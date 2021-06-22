@@ -7,12 +7,12 @@ module.exports = {
       colors: {
         primary: "#31A431",
         green: "#008001",
-      },        
+      },
       fontFamily: {
-        sans : [
+        sans: [
           "Poppins"
         ],
-        serif : [
+        serif: [
           "DM Sans"
         ]
       }

@@ -24,6 +24,7 @@ lib/bs
 .vscode
 .merlin
 .bsb.lock*.log
+/public/dist/*
 /node_modules/
 /_esy/
 *.log
